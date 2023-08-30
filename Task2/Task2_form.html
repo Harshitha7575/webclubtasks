@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Registration Form</title>
+</head>
+<body style="background-color:bisque">
+    <h3> </h3>
+    <center><h2 style="color: blueviolet;">2023-24 Exam Registration form</h2></center>
+    <form action="">
+        <label for="stdName">Name of the student : </label><input type="text" id="stdName" placeholder="(As per SSC)">
+        <br>
+        <br>
+        <label for="rollno">Register Number : </label><input type="number" id="rollno" placeholder="21xxxxxxxx">
+         <br>
+         <br>
+         <label for="FtName">Father's Name : </label><input type="text" id="FtName" placeholder="(As per SSC)" required>
+         <br>
+         <br>
+         <label for="MtName">Mother's Name : </label><input type="text" id="MtName" placeholder="(As per SSC)">
+         <br>
+         <br>
+         <label for="Email id">College Email id : </label><input type="text" id="Email id" placeholder="eg: 21xxxxxxxx@mits.ac.in">
+         <br>
+         <br>
+         <label for="Dob">Date of birth : </label><input type="text" id="Dob" placeholder=" dd/mm/yyyy">
+         <br>
+         <br>
+        Gender:
+         male<input type="radio" name="Gender">
+         female<input type="radio" name="Gender">
+         <br>
+        
+         <p>Branch :
+         <select name="Branch" id="Branch">
+            <option value="" >CSE</option>
+            <option value="" >CAI</option>
+            <option value="" >CST</option>
+            <option value="" >CSD</option>
+            <option value="" >ECE</option>
+            <option value="" >EEE</option>
+            <option value="" >CIVIL</option>
+            <option value="" >MECH</option>
+        </select>
+        </p>
+        <p>Upload Aadhar card : <input type="file"></p>
+        <p>Upload SSC Marksheet : <input type="file"></p>
+        <p>Registered Course :
+        </p>
+        <input type="Checkbox" name="c1" id="c1" value="DS">
+        <label for="c1">Data Structures</label>
+        <br>
+        <input type="Checkbox" name="c2" id="c2" value="C">
+        <label for="c2">C programming</label>
+        <br>
+        <input type="Checkbox" name="c3" id="c3" value="Python">
+        <label for="c3">Python</label>
+        <br>
+        <input type="Checkbox" name="c4" id="c4" value="PS">
+        <label for="c4">Probability & Statistics</label>
+        <br>
+        <input type="Checkbox" name="c5" id="c5" value="ML">
+        <label for="c5">Machine Learning</label>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+    </form>
+</body>
+</html>
